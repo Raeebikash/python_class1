@@ -1,0 +1,5 @@
+name , char = input("enter your name and age seperatted by comma:").split(",")
+print(f"length of your name is {len(name)}")
+print(f"character count: {name.count(char)}")
+#name.lower().count(char.lower())
+print(f"character count:{name.lower().count(char.lower())}")
